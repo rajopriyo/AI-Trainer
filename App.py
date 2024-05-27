@@ -60,7 +60,7 @@ def generate_card(title, description, links):
 st.markdown("<div class='cards-container'>", unsafe_allow_html=True)
 
 # Generate and display multiple cards
-card1 = generate_card("Hammer Curl", "Track your Hammer Curl exercise.", "https://ai-trainer-1.onrender.com//HammerCurl")
+card1 = generate_card("Hammer Curl", "Track your Hammer Curl exercise.", "https://ai-trainer-1.onrender.com/HammerCurl")
 card2 = generate_card("Jump", "Track your Jump exercise.", "https://ai-trainer-1.onrender.com//Jump")
 card3 = generate_card("Lifting", "Track your Lifting exercise.", "hhttps://ai-trainer-1.onrender.com//Lifting")
 card4 = generate_card("Pushup", "Track your Pushup exercise.", "https://ai-trainer-1.onrender.com//Pushup")
